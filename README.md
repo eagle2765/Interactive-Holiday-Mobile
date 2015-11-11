@@ -26,6 +26,8 @@ For input, do not create a text entry box, rather use the keyboard events (e.g.,
 
 The basic assignment does not have to adjust the size of the letters based on how much the user types, but can use a fixed size.  However, the letters should be sized and spaced such that the message "Happy Holidays" can be displayed. 
 
+You must also clearly identify what you did (summarize how to solved each element of the basic assignment, along with what bonus parts you did and how the TA can see them in action if needed) in text on the HTML page under the 3D canvas element.
+
 ## Grading
 
 This assignment will be graded as follows:
@@ -36,7 +38,7 @@ This assignment will be graded as follows:
 * 1 point for correct text input
 * 2 points for selection and spinning the letters at all
 * 1 point for properly adjusting the speed and amount of spin based on where on the letter the user clicks.
-* 1 point for overall program and output appearance: reasonable title and instructions, and having the 3D window respond appropriately to window resize. 
+* 1 point for overall program and output appearance: reasonable title and instructions, and having the 3D window respond appropriately to window resize, clearly identifying what you did.
 
 ## Leveraging code from the internet
 
