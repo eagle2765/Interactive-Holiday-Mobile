@@ -42,6 +42,8 @@ This assignment will be graded as follows:
 * 1 point for properly adjusting the speed and amount of spin based on where on the letter the user clicks.
 * 1 point for overall program and output appearance: reasonable title and instructions, and having the 3D window respond appropriately to window resize, clearly identifying what you did.
 
+As noted above, if you are using a higher level library, such as three.js, you will also need to do one of the bonus options as part of the main assignment.  In that case, the basic assignment will be graded out of 12 (instead of 10), but then scaled down to 10.  Please make it clear (in description on the html page) which of bonus items you are doing as part of the main assignment.  
+
 ## Leveraging code from the internet
 
 If you copy any code from the internet (including from sites we have been using, such as webglfundamentals.org), please document it.  
