@@ -18,7 +18,7 @@ The key part of this assignment, however, is that the mobile must be interactive
 
 * the message should be taken from the keyboard.  Your scene should start with no text, but should have instructions that tell the user that they can type any letters to create a message, how to reset the message text, and what the maximum number of characters are (if any). As letters are typed, they are added to the message.  You should accept (at least) letters and spaces, but can also accept other characters if you want.  As characters are typed, they should be added such that the message is centered on the screen.  
 
-* the user should be able to click on the letters.  When they do, the letters should spin, with the speed and (thus) the amount they spin based on how far from the horizontal center they click (click at the end to spin multiple times, click near the middle to spin just once).  You do not have to have the letters end up facing forwards when they spin (but, see below).  You can use either approach to selection we discussed in class (ray casting, which in this case would be a ray-polygon intersection, or the render buffer technique).
+* the user should be able to click on the letters.  When they do, the letters should spin, with the speed and (thus) the amount they spin based on how far from the horizontal center they click (click near the left or right edge to spin multiple times, click near the middle to spin just once). The letter should always end up facing forward again, and should decelerate smoothly from it's initial speed. One way to handle the deceleration is to use part of a sin() wave (perhaps from 90..180 degrees) to start at full speed and end at zero speed, with the total amount of rotation being spread through that range).   You can use either approach to selection we discussed in class (ray casting, which in this case would be a ray-polygon intersection, or the render buffer technique).
 
 * when the user types a letter, a sound should play.  When they click on a letter with the mouse, a different sound should play.  (you might consider using a wrapper library like [howler.js](http://goldfirestudios.com/blog/104/howler.js-Modern-Web-Audio-Javascript-Library) which has a TSD wrapper already built, instead of using the web audio APIs directly).
 
@@ -44,7 +44,7 @@ If you copy any code from the internet (including from sites we have been using,
 
 ## Bonus
 
-Unlike previous assignments, you may do additional work for bonus points.  Each of the bonus options can earn up to 2 points (1 point for meeting the requirements, up to 1 more point for particularly aesthetically interesting/pleasing results), and you may do at most 2 of them.
+Unlike previous assignments, you may do additional work for bonus points.  Each of the bonus options can earn up to 2 points (1 point for meeting the requirements, up to 1 more point for particularly aesthetically interesting/pleasing results), and you may do at most 3 of them.
 
 Possible bonus options include:
 
