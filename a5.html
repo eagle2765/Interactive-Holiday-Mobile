@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="en">
+    
+<head>
+<meta charset="utf-8">
+<title>CS 3451 Fall 2015 - Assignment 5</title>
+<link type="text/css" href="includes/style.css" rel="stylesheet" />
+
+<script src="resources/three.js"></script>
+<script src="resources/three.min.js"></script>
+<script src="resources/howler.js"></script>
+<script src="fonts/helvetiker_regular.typeface.js"></script>
+<script src="fonts/helvetiker_bold.typeface.js"></script>
+
+</head>
+
+<body>
+    
+    <h> Press a key to start. Press backspace to clear the message. Character limit is 23. Check the readme (spin doesn't work with description in the html)
+        
+        <br>
+        
+        
+        
+    </h>
+    
+ <div id="top-image"></div>
+ 
+
+        
+<script data-main="js/a5" type="text/javascript" src="resources/require.js"></script>
+
+<script> 
+    
+    
+    document.addEventListener("keypress", function(){
+    var sound = new Howl( {
+        urls: ['/music/inceptionbutton.mp3']
+        }).play();
+});
+
+</script>
+
+</body>
+</html>
